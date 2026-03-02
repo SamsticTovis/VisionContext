@@ -1,0 +1,9 @@
+fastapi
+streamlit
+opencv-python
+pillow
+numpy
+scikit-learn
+tensorflow
+pytorch
+matplotlib
