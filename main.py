@@ -1,0 +1,1 @@
+from fastapi import FastAPI, File, UploadFile\nfrom fastapi.responses import JSONResponse\n\napp = FastAPI()\n\n@app.post('/analyze')\ndef analyze(file: UploadFile = File(...)):\n    # Logic to handle image/video processing\n    return JSONResponse(content={'message': 'File received'})\n
