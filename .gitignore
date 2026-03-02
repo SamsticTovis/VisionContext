@@ -1,0 +1,18 @@
+# Python virtual environments
+*.env
+*.venv
+
+# API keys
+*.env
+*.key
+*.secret
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Common development artifacts
+*.log
+*.sqlite3
+*.db
